@@ -27,7 +27,7 @@ ENV PASSWORD=${PASSWORD}
 RUN \
   echo "*** Cloning SillyTavern Core from GitHub (staging branch) ***" && \
   # Clone the specific branch into the current directory
-  git clone -b staging --depth 1 https://github.com/SillyTavern/SillyTavern.git . && \
+  git clone -b staging --depth 1 https://github.com/jjf1126/yuanbanSilly.git . && \
   echo "*** Cloning complete. ***"
 # --- END: Clone SillyTavern Core ---
 
